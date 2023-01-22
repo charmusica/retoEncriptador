@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Reto-encriptador</title>
+</head>
+<body>
+
+    <header>
+        <div class="col-12">
+            <section class="header">
+                <img  class= "logo" id="logo" src="imagenes/logo.png" alt="Logo">
+            </section>
+        </div>
+    </header>
+    
+    <div class="col-9">
+        <section class="izquierda">
+            <textarea name="input" class="input" id="inputTexto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+        </section>
+    </div>
+        
+    <div class="col-3" id="container">
+        <section class="derecha">
+            <img class="muneco" id="imgDer" src="imagenes/muneco.png" alt="Muñeco">
+            <p class="texto1" id="texto1">Ningún mensaje fue encontrado</p>
+            <textarea name="name" id="texto2" cols="30" rows="10">Ingrese el texto para encriptar o desencriptar</textarea>
+            <button id="copiar" type="button" name="button" onclick="copy()" >Copiar</button>
+        </section>
+    </div>
+
+    <img class="signo" src="Imagenes/signo.png">
+    <p>Solo minúsculas y sin acentos</p>
+    
+   <div class="col-9">
+        <section class="btn">
+           <button class="encriptar" id="btn-encriptrar" onclick="encriptar()">Encriptar</button>
+           <button class="desncriptar" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </section>
+   </div> 
+
+   <footer class="footer"> <p>Creado por Carlos M. para Alura Latam</p> </footer>
+    
+</body>
+</html>

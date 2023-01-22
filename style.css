@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    background: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .logo{
+    background: #E5E5E5;
+    height: 48px;
+    width: 31.09px;
+  }
+
+  .izquierda{
+    float: left;
+    background: none;
+    width: 100%;
+    height: 430px;
+    margin-left: 5%;
+  }
+  
+  #container{
+    float: right;
+    display: flex;
+    align-items: center;
+  }
+
+  #inputTexto{
+    background: none;
+    color: #0A3B71;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+  }
+  
+  .btn{
+    float: left;
+    display: flex;
+    background: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .signo{
+    float: inherit;
+    display: inline;
+    margin-left: 7%;
+    margin-top: 2.5%;
+  }
+
+  p{
+    float: inherit;
+    font-weight: bold;
+    display: inline;
+    margin: 1%;
+    font-size: 10;
+    color: grey;
+  }
+
+  #btn-encriptrar{
+    float: left;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #0A3B71;
+    color: #E5E5E5;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 30%;
+    height: 67px;
+    text-align: center;
+  }
+
+  #btn-desencriptar{
+    background: #E5E5E5;
+    float: right;
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: #0A3B71;
+    border-radius: 24px;
+    outline-style: none;
+    font-size: 16px;
+    width: 30%;
+    height: 67PX;
+    text-align: center;
+  }
+
+  .derecha{
+    float: right;
+    margin: auto;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 24px;
+    /*background: orange ;*/
+  }
+
+  #imgDer{
+    background: none;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  #texto1{
+    float: left;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    text-align: center;
+    background: none;
+    font-size: 24px;
+    color: #343A40;
+  }
+  
+  #texto2{
+    float: left;
+    background: #FFFFFF;
+    margin-top: 5%;
+    padding: 5%;
+    color: #495057;
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #copiar{
+    padding: 24px;
+    margin: auto;
+    margin-bottom: 15%;
+    height: 12%;
+    width: 70%;
+    margin-top: 175%;
+    background: #FFFFFF;
+    border-radius: 24px;
+    display: none;
+    color: #0A3B71;
+    outline: auto;
+    outline-color: #0A3B71;
+  }
+
+  .footer{
+    margin-top: 15%;
+    background: none;
+    text-align: center;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+  [class*="col-"] {
+      width: 100%;
+    }
+  
+
+  @media only screen and (min-width: 768px) {
+    /* Para desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
